@@ -248,7 +248,8 @@ font-family: 'Merriweather', serif; */
   background-repeat: no-repeat;
   display: flex;
   background-position: bottom, top right;
-  background-image: url("../pic/Rectangle\ 2.png"), url("/pic/Rectangle\ 1.png");
+  background-image: url("../pic/Rectangle\ 2.png"),
+    url("../pic/Rectangle\ 1.png");
 }
 
 .banner-img75 img {
