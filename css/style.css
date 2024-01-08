@@ -241,7 +241,7 @@ font-family: 'Merriweather', serif; */
   background-repeat: no-repeat;
   background-position: left bottom, right top, center top;
   padding-top: 240px;
-  /* margin-right: 20px; */
+
   background-image: url("../pic/Rectangle\ 2.png"),
     url("../pic/Rectangle\ 1.png"), url("../pic/Group\ 44.png");
 }
@@ -324,28 +324,25 @@ font-family: 'Merriweather', serif; */
   padding-top: 40px;
   padding-bottom: 50px;
 }
-.btn-button label {
-  border-radius: 0px 50px 50px 0px;
-  background-color: #f93e3e;
-  padding: 15px 0px;
-  border: none;
-  font-size: 18px;
-  border-radius: 100px 60px 60px 100px;
-}
-
-.btn-button input {
-  padding: 15px 40px;
-  border: none;
+.b1 {
   outline: none;
+  padding: 20px 70px;
+  border: none;
+  font-family: "Inter", sans-serif;
   border-radius: 50px 0px 0px 50px;
   background: #fff;
-  outline: nonrgb(158, 131, 131);
 }
-.btn-button input[type="text"] {
-  color: rgba(7, 2, 17, 0.3);
-  text-align: center;
+.b2 {
   font-family: "Inter", sans-serif;
-  font-size: 18px;
+  color: #fff;
+  background: #f00;
+  border-radius: 0px 50px 50px 0px;
+  border: none;
+  padding: 20px 30px;
+  margin-left: -5px;
+}
+.b2:hover {
+  background: rgb(213, 107, 107);
 }
 /* footer :start */
 footer {
