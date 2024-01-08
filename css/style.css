@@ -235,18 +235,33 @@ font-family: 'Merriweather', serif; */
 
 /* extra try to my best */
 
-.bg2 {
-  margin: 10px 50px;
-  border-radius: 15px;
-  background-repeat: no-repeat;
-  background-position: left bottom, right top, center top;
-  padding-top: 240px;
-
-  background-image: url("../pic/Rectangle\ 2.png"),
-    url("../pic/Rectangle\ 1.png"), url("../pic/Group\ 44.png");
+.banneer-offer {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  align-items: center;
+  width: 90%;
+  margin: auto;
 }
-.bg2 img {
-  width: 500px;
+.banner-flexx {
+  border-radius: 18px;
+  background-repeat: no-repeat;
+  display: flex;
+  background-position: bottom, top right;
+  background-image: url("../pic/Rectangle\ 2.png"), url("/pic/Rectangle\ 1.png");
+}
+
+.banner-img75 img {
+  border-radius: 20px;
+  width: 100%;
+  margin-top: 110px;
+  margin-left: 20px;
+}
+.banner-img44 {
+  width: 40%;
+  margin-top: 52px;
+  margin-right: 290px;
+  margin-bottom: 300px;
 }
 
 /* header-gift :start */
