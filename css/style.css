@@ -13,7 +13,7 @@
   background-image: url("../pic/Banner\ Image.png");
 }
 .header-bg {
-  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 80%);
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
   border-radius: 16px;
 }
 .header-p {
@@ -404,9 +404,16 @@ footer {
   margin: auto;
   padding-bottom: 100px;
 }
+.copyright1:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.copyright2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
 
 .hr {
   width: 73%;
   margin: 50px auto;
-  background-color: #000000;
 }
